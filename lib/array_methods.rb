@@ -1,6 +1,7 @@
-array = ["New York", "Chicago", "Los Angeles", "Houston"]
+
 
 def using_include(array, element)
+array = ["New York", "Chicago", "Los Angeles", "Houston"]
 sorted_array = array.sorted
 puts sorted_array
 end
