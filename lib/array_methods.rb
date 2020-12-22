@@ -14,16 +14,13 @@ array.reverse()
 end
 
 def using_first(array)
-array = ["wow", "I", "am", "really", "learning", "arrays!"]
-puts array.first
+array.first()
 end
 
 def using_last(array)
-array = ["wow", "I", "am", "really", "learning", "arrays!"]
-puts array.last
+array.last()
 end
 
 def using_size(array)
-array = ["wow", "I", "am", "really", "learning", "arrays!"]
-puts array.size
+array.size()
 end
