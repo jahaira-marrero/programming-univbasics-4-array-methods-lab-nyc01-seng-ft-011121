@@ -5,8 +5,7 @@ def using_include(array, element)
 end
 
 def using_sort(array)
-sorted_array = array.sort
-puts sorted_array
+puts array()
 end
 
 
