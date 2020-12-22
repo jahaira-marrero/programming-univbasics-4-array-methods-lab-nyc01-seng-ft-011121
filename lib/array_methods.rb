@@ -4,11 +4,10 @@ def using_include(array, element)
   array.include?(element)
 end
 
-array = ["wow", "I", "am", "really", "learning", "arrays!"]
-
 def using_sort(array)
- sorted_array = array.sort
- puts sorted_array
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  sorted_array = array.sort
+  puts sorted_array
 end
 
 array = ["wow", "I", "am", "really", "learning", "arrays!"]
