@@ -1,9 +1,8 @@
 
 
 def using_include(array, element)
-array = ["New York", "Chicago", "Los Angeles", "Houston"]
-sorted_array = array.sorted
-puts sorted_array
+array = ["wow", "I", "am", "really", "learning", "arrays!"]
+puts array.include?("wow")
 end
 using_include(array, element)
 
